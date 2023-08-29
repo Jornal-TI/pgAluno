@@ -47,13 +47,3 @@ height: 70px;
 }
 
 
-h1 {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: rgb(5, 55, 119);
-    padding-top: 15px;
-    font-size: 35px;
-    font-family: Arial, Helvetica, sans-serif;
-    color: rgb(255, 255, 255);
-}

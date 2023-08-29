@@ -12,7 +12,6 @@ import Usuario from "../../icons/usuario.png"
 function Nav() {
   return (
     <div>
-      <h1>Área do aluno</h1>
       <div className="navbar">
 
         <button><img src={Lapis}></img>Notas</button>

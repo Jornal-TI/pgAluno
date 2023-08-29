@@ -1,0 +1,29 @@
+.background-data {
+    background-color: rgb(23, 36, 95);
+}
+
+#logo {
+    height: 135px;
+}
+
+.data {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: rgb(15, 76, 112);
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-family: sans-serif;
+    height: 120px;
+}
+
+p {
+    margin-right: 20px;
+    font-size: 35px;
+
+
+}
+
+#logo {
+    margin-left: 20px;
+}
