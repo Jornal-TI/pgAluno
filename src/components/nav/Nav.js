@@ -1,11 +1,10 @@
 import React from "react";
 import './nav.css';
-import Lapis from "../../icons/lapis.png"
-import Horario from "../../icons/relogio.png"
-import Livro from "../../icons/livro.png"
-import Licao from "../../icons/licao.png"
-import Usuario from "../../icons/usuario.png"
-
+import Lapis from "../../icons/lapis.svg"
+import relogio from "../../icons/relogio.svg"
+import Livro from "../../icons/livro.svg"
+import Licao from "../../icons/licao.svg"
+import Usuario from "../../icons/usu.svg"
 
 
 
@@ -14,11 +13,25 @@ function Nav() {
     <div>
       <div className="navbar">
 
-        <button><img src={Lapis}></img>Notas</button>
-        <button><img src={Horario}></img>Horário</button>
-        <button><img src={Livro} />Biblioteca</button>
-        <button><img src={Licao} />Atividades</button>
-        <button><img src={Usuario} />Meus Dados</button>
+        <br/>
+        <br/>
+        <button><img src={Lapis}/>Notas</button>
+        <br/>
+        <br/>
+        <br/>
+        <button><img src={relogio}/>Horário</button>
+        <br/>
+        <br/>
+        <br/>
+        <button><img src={Livro}/>Biblioteca</button>
+        <br/>
+        <br/>
+        <br/>
+        <button><img src={Licao}/>Atividades</button>
+        <br/>
+        <br/>
+        <br/>
+        <button><img src={Usuario}/>Meus Dados</button>
 
 
 
